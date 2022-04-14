@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.instagram-continer{
+    width: 60% ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.phone-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.phone-photo img {
+    height: 50rem;
+}
+
+.login-continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+
+}
+.login-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.login-group:nth-child(1){
+    min-height: 19rem;
+}
+
+.profile-photo img{
+    height: 6rem
+}
+
+.login{
+    color: #fff;
+    background: #0095f6;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-user{
+    color: rgb(160, 160, 160);
+}
+
+.link-blue{
+    color: #0095f6;
+}
+
+.get-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+}
+
+.download{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.download-button{
+    width: 10.5rem;
+    height: 3rem;
+    background-size: cover;
+}
+
+.download-button:nth-child(1){
+    
+    background-image:url(./img/apple-button.png);
+}
+
+.download-button:nth-child(2){
+    
+    background-image: url(./img/googleplay-button.png);
+}
+.profile-photo{
+    
+}
+
+@media screen and (max-width: 1020px) {
+    
+    .instagram-continer{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .phone-photo, .phone-photo img{
+        display: none;
+    }
+    .instagram-continer{
+        width: 80%;
+    }
+
+    .login-continer{
+        width: 100%;
+    }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Booksflix Clone</title>
+        
+        <!-- Styles Css -->
+        
+        <link rel="stylesheet" href="./CSS/Style.css">
+        <link rel="stylesheet" href="./CSS/Owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="./CSS/Owl/owl.theme.default.min.css">
+        
+        <!-- fontess -->
+        
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=MedievalSharp&display=swap" rel="stylesheet">
+        
+        <!-- JavaScrit -->
+        
+        <script src="./JS/Owl/jquery.min.js"  defer></script>
+        <script  src="./JS/Owl/owl.carousel.min.js" defer ></script>
+        <script src="./JS/Owl/setup.js" defer></script>
+        
+    </head>
+    <body>
+        <header>
+            <div class="continer">
+                <h2 class="logo">BOOKSFLIX</h2>
+                <nav>
+                    <a href="">Inicio</a>
+                    <a href="">Fantasia</a>
+                    <a href="">Sci-fsi</a>
+                    <a href=""></a>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <div class="livro-destaque" data-js="bk-destaque" id="55">
+                <div class="continer" >
+                <h3 class="titulo-medieval" data-js="titulo">A flecha de fogo</h3>
+                    
+                <p class="descricao " data-js="descricao">A Flecha de Fogo narra o embate épico entre a civilização humana e a monstruosa Aliança Negra, num romance de volume único que conquistará tanto veteranos quanto recém-chegados ao maior universo de fantasia do Brasil.</p>
+                    <div class="botoes">
+                        <button role="button " class="botao" >Ouvir agora</button>
+                        <button  role="button " class="botao">Mais informaões</button>
+                    </div>
+                </div>
+                <audio controls url="https://drive.google.com/file/d/1YJO2uVm9H1EqAMFvF5v5eCWbELA9yoH1/view?usp=sharing"></audio>
+            </div>      
+        </main>
+        
+        <div class="owl-carousel owl-theme">
+            <div class="items">
+                 <button class="hidden-button" data-js="btn-witcher1"> 
+                     <img class="book-box" src="./img/theWitcher1.jpg" alt="capa do livro um da saga The Witcher"> 
+                </button> 
+             </div>
+            
+            <div class="items"> 
+                <button class="hidden-button" data-js="btn-witcher2"> 
+                    <img class="book-box" src="./img/theWitcher2.jpg" alt="capa do livro dois da saga The Witcher"> 
+                </button> 
+            </div>
+            
+            <div class="items"> 
+                <button class="hidden-button" data-js="btn-witcher3"> 
+                    <img class="book-box" src="./img/theWitcher3.jpg" alt="capa do livro tres da saga The Witcher"> 
+                </button> 
+            </div>
+            
+            <div class="items"> 
+                <button class="hidden-button" data-js="btn-witcher4" > 
+                    <img class="book-box" src="./img/thewitcher4.jpg" alt="capa do livro quatro da saga The Witcher"> 
+                </button>
+            </div>
+            
+            <div class="items"> 
+                <button class="hidden-button" data-js="btn-poder-do-habito"> 
+                    <img class="book-box" src="./img/oPoderDoHabito.jpg" alt="capa do livro O poder do habito"> 
+                </button> 
+            </div>
+            
+        </div>
+    </body>
+</html>

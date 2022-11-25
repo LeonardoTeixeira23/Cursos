@@ -1,2 +1,2 @@
 # Cursos
-Repositório para centralizar e salvar os projetos desenvolvidos nos cursos que fiz
+Repositório para centralizar e  os projetos desenvolvidos nos cursos que fiz
